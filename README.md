@@ -1,5 +1,5 @@
 # Simple Flutter application
-A simple application with Google APIs (Google Sheets), prove idea of serverless.
+A simple application with Google APIs (Google Sheets), serverless.
 
 # Context
 - Office allows employee order foods for lunch in weekdays.
@@ -15,15 +15,18 @@ A simple application with Google APIs (Google Sheets), prove idea of serverless.
 ## Screenshots
 - Home screen, load all users: 
 <img src="screenshots/homepage.png" width="30%">
+
 - View orders: 
 <img src="screenshots/reserved.png" width="30%"> 
+
 - Order screen: 
 <img src="screenshots/order_now.png" width="30%">
+
 - Save order successfully: 
 <img src="screenshots/order_successful.png" width="30%">
 
 
-## Uses
+## Use
 
 1. Create a Google Spreadsheet follows file format: docs/lunch.xlsx (or just push this file to Google Spreadsheet and update the content).
 2. Create a Google Cloud application
@@ -31,5 +34,3 @@ A simple application with Google APIs (Google Sheets), prove idea of serverless.
 4. Download credentials, replace **credentials.json**, line 7
 5. Replace JSON content in **lib/service.dart**
 6. Replace *SPREADSHEET_ID* in **lib/service.dart**, line 25
-
-
